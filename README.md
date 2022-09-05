@@ -23,7 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://lh3.googleusercontent.com/ldcYhruwZI0ulKGdDgHZY0A9Yn5uP3BBCeprsBs37UziUv3nht8N3TR8yiyXcyQv0OA=w2400)
+[](https://lh4.googleusercontent.com/ATGCz-ul4PID4JhitfNynfZR4Thvd754U33271OwXv7d-Xf3Zu8pEQDofYPa2rH7VUY=w2400)
+[](https://lh3.googleusercontent.com/3Yx2_1ZNV-vP9aEIXSS3sBUF2iEx-tVvAbHhSt-2mAzka1-2IbHu8Kuj9a9gk4njUdg=w2400)
 
 ### Links
 
