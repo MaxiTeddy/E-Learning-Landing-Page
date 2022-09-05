@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here is the solution](https://github.com/MaxiTeddy/E-Learning-Landing-Page)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Here is the live site](https://e-learning-page-three.vercel.app/)
 
 ### Built with
 
