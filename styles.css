@@ -1,0 +1,315 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.page{
+    background-color: #fafaff;
+    width: 300px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo{
+    width: 80px;
+    margin-top: 20px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: black;
+    background: #83869a;
+}
+
+.header-button{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    margin-left: 160px;
+    margin-top: -30px;
+    border: none;
+    background-color: #13183f;
+    color: white;
+}
+
+h1{
+    font-weight: 900;
+    color: #13183f;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #83869a;
+}
+
+.article-button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+}
+
+.image{
+    background-image: url(/images/image-hero-mobile.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+    margin-left: -20px;
+}
+
+#course-header{
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    color: white;
+    font-size: 12px;
+    width: 260px;
+    height: 80px;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.course{
+    background-color: white;
+    margin-top: 25px;
+    height: 180px;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+
+.icons{
+    width: 40px;
+    z-index: 3;
+    margin-top: -15px;
+}
+
+h3{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 15px;
+    color: #f02aa6;
+    margin-top: 15px;
+}
+
+h4:hover{
+    color: #83869a;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #13183f;
+    margin-top: 30px;
+    margin: 30px -20px 0 -20px;
+    height: 80px;
+    padding: 10px 20px;
+}
+
+.footer-button{
+    margin-left: 160px;
+    margin-top: -30px;   
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    border: none;
+}
+
+@media only screen and (min-width: 600px){
+    .page{
+        width: 600px;
+        overflow: hidden;
+        background-color: #fafaff;
+    }
+
+    .header-button{
+        margin-left: 440px;
+    }
+
+    button{
+        width: 120px
+    }
+
+    h1{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .main{
+        display: flex;
+    }
+
+    .article{
+        width: 310px;
+        margin-top: 50px
+    }
+
+    .article-button{
+        margin-top: 15px;
+    }
+
+    .image{
+        background: url(/images/image-hero-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -80px;
+        height: 450px;
+        width: 500px;
+        margin-right: -200px;
+    }
+
+    .courses-lists{
+        grid-template-columns: 270px 270px;
+        grid-template-rows: 220px 220px 220px;
+        display: grid;
+        column-gap: 20px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .course{
+        background-color: white;
+    }
+
+    #course-header{
+        height: 180px;
+    }
+
+    h2{
+        margin-top: 20px;
+    }
+
+    .footer-button{
+        margin-left: 440px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .page{
+        width: 1200px;
+        padding: 0 130px;
+        background-color: white;
+    }
+
+    .logo{
+        width: 130px;
+    }
+
+    .article{
+        width: 500px;
+        margin-top: 100px;
+    }
+
+    .article-button{
+        margin-top: 20px;
+    }
+    
+    .image{
+        background: url(/images/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 170px;
+        margin-top: -180px;
+        width: 800px;
+        height: 700px;
+    }
+
+    button{
+        
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    .header-button, .footer-button{
+        margin-left: 800px;
+        margin-top: -40px;
+    }
+
+    .courses-lists{
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        display: grid;
+        column-gap: 30px;
+        row-gap: 80px;
+        justify-content: center;
+        padding-top: 70px;
+        background-color: #fafaff;
+        margin: 0 -150px;
+    }
+
+    .course{
+        height: 300px;
+        padding: 0 20px;
+        background-color: white;
+    }
+
+    #course-header{
+        height: 300px;
+        width: 300px;
+    }
+
+    .icons{
+        width: 50px;
+        margin-top: -25px;
+    }
+
+    #list-2 h4{
+        margin-top: 57px;
+    }
+
+    p{
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    h4{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .footer{
+        margin-top: -250px;
+        margin: -250px -150px 0 -150px;
+        padding: 0 150px;
+    }
+}
